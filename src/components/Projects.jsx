@@ -2,12 +2,13 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 import project1 from '../assets/work_logo/project1.png'
+import project1_M from '../assets/work_logo/project1_m.jpg'
 const projects = [
   {
     // name: "Mukesh Engineering Works",
     // summary: "Developed a Static Business Website.",
     imageDesktop: {project1},
-    imageMobile:"../assets/work_logo/project1_m.jpg",
+    imageMobile:{project1_M},
     link: "https://mukeshengworks.in",
   },
   {
