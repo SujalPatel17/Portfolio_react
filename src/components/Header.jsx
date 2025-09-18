@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu } from "react-icons/fi";
 import { animate, stagger } from "motion";
+import imggg from '../assets/filemenu.svg'
 
 const handleScrollToTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -55,7 +56,7 @@ const Header = () => {
 
       {/* Mobile Menu Button */}
       <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
-        <img src='/src/assets/filemenu.svg' alt="menu" className="w-8 h-8" />
+        <img src={imggg} alt="menu" className="w-8 h-8" />
       </button>
 
       {/* Mobile Menu */}
