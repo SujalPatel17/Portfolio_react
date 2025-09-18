@@ -3,6 +3,10 @@ import ProjectCard from "./ProjectCard";
 
 import project1 from '../assets/work_logo/project1.png'
 import project1_M from '../assets/work_logo/project1_m.jpg'
+import project2 from '../assets/work_logo/project2.png'
+import project2_m from '../assets/work_logo/project2_m.jpg'
+import project3 from '../assets/project3.png'
+import project3_m from '../assets/project3_m.jpg'
 const projects = [
   {
     // name: "Mukesh Engineering Works",
@@ -14,15 +18,15 @@ const projects = [
   {
     // name: "MT Clinic HealthCare",
     // summary: "Second project description here.",
-    imageDesktop: "../assets/work_logo/project2.png",
-    imageMobile:"../assets/work_logo/project2_m.jpg",
+    imageDesktop: {project2},
+    imageMobile:{project2_m},
     link: "https://www.meshdroid.com/Mtclinic/",
   },
   {
     // name: "Employee Management System",
     // summary: "Web app to manage employee records efficiently.",
-    imageDesktop: "../assets/work_logo/project3.png",
-    imageMobile:"../assets/work_logo/project3_m.jpg",
+    imageDesktop: {project3},
+    imageMobile:{project3_m},
     link: "https://employee-management-system-iota-livid.vercel.app/",
   },
 ];
