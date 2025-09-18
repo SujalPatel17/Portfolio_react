@@ -1,25 +1,26 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 
+import project1 from '../assets/work_logo/project1.png'
 const projects = [
   {
     // name: "Mukesh Engineering Works",
     // summary: "Developed a Static Business Website.",
-    imageDesktop: "/assets/work_logo/project1.png",
-    imageMobile:"/assets/work_logo/project1_m.jpg",
+    imageDesktop: {project1},
+    imageMobile:"../assets/work_logo/project1_m.jpg",
     link: "https://mukeshengworks.in",
   },
   {
     // name: "MT Clinic HealthCare",
     // summary: "Second project description here.",
-    imageDesktop: "/assets/work_logo/project2.png",
-    imageMobile:"./assets/work_logo/project2_m.jpg",
+    imageDesktop: "../assets/work_logo/project2.png",
+    imageMobile:"../assets/work_logo/project2_m.jpg",
     link: "https://www.meshdroid.com/Mtclinic/",
   },
   {
     // name: "Employee Management System",
     // summary: "Web app to manage employee records efficiently.",
-    imageDesktop: "assets/work_logo/project3.png",
+    imageDesktop: "../assets/work_logo/project3.png",
     imageMobile:"../assets/work_logo/project3_m.jpg",
     link: "https://employee-management-system-iota-livid.vercel.app/",
   },
