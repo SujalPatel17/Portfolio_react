@@ -11,22 +11,22 @@ const projects = [
   {
     // name: "Mukesh Engineering Works",
     // summary: "Developed a Static Business Website.",
-    imageDesktop: {project1},
-    imageMobile:{project1_M},
+    imageDesktop: project1,
+    imageMobile:project1_M,
     link: "https://mukeshengworks.in",
   },
   {
     // name: "MT Clinic HealthCare",
     // summary: "Second project description here.",
-    imageDesktop: {project2},
-    imageMobile:{project2_m},
+    imageDesktop: project2,
+    imageMobile:project2_m,
     link: "https://www.meshdroid.com/Mtclinic/",
   },
   {
     // name: "Employee Management System",
     // summary: "Web app to manage employee records efficiently.",
-    imageDesktop: {project3},
-    imageMobile:{project3_m},
+    imageDesktop: project3,
+    imageMobile:project3_m,
     link: "https://employee-management-system-iota-livid.vercel.app/",
   },
 ];
