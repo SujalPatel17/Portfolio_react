@@ -1,5 +1,5 @@
 import React from "react";
-
+import resppp from '../assets/work_logo/responsive.png'
 export default function Extras() {
   return (
     <section className="bg-black text-white py-16 px-6">
@@ -51,7 +51,7 @@ export default function Extras() {
 
         <h3 className="text-lg font-semibold mb-4 font-[MontserratAlt1]">Responsive Web</h3>
         <img
-          src='/src/assets/work_logo/responsive.png'
+          src = {resppp}
           alt="Responsive Web Design"
           className="w-full h-auto mb-3 rounded-lg"
         />
